@@ -1,0 +1,52 @@
+{
+  "name": "blear.express.http-method-override",
+  "version": "1.0.0",
+  "description": "http 请求方法重写",
+  "scripts": {
+    "live": "browser-sync start --config bs-config.js",
+    "test-travis": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly",
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha",
+    "prepublish": "npm test"
+  },
+  "preferGlobal": false,
+  "bin": {},
+  "engines": {
+    "node": ">=1.0.0",
+    "iojs": ">=1.0.0"
+  },
+  "main": "src/index.js",
+  "keywords": [
+    "blear",
+    "node",
+    "template",
+    "express",
+    "cloudcome",
+    "ydr.me"
+  ],
+  "author": {
+    "name": "cloudcome",
+    "email": "cloudcome@163.com",
+    "url": "http://ydr.me"
+  },
+  "contributors": [],
+  "homepage": "https://github.com/blearjs/blear.express.http-method-override",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blearjs/blear.express.http-method-override"
+  },
+  "bugs": {
+    "url": "https://github.com/blearjs/blear.express.http-method-override/issues"
+  },
+  "dependencies": {
+    "blear.utils.object": "^1.0.14"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "chai-jasmine": "^1.0.7",
+    "express": "^4.15.2",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5",
+    "supertest": "^3.0.0"
+  },
+  "license": "MIT"
+}
